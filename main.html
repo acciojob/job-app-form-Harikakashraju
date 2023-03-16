@@ -8,10 +8,12 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="get">
 	<ol>
-	   <li><input type="text" placeholder="Name*" required></li>
-	   <li> <input type="email" placeholder="Email*" required></li>
+	    <li><label for="name">Name*:</label></li>
+        <input type="text" id="#name" name="name">
+	     <li><label for="email">Email*:</label></li>
+         <input type="email" id="#email" name="email"> 
 		<li><div>
 		<legend required>Gender*:</legend>
 		<div>
@@ -30,9 +32,12 @@
 	    <input type="checkbox">
 		<label for="HP">HP</label>
 	    <input type="checkbox">
-	<li><input type="number" placeholder="Age*" required></li>
-	<li><input type="date" placeholder="DOB*" required></li>
-	<li><input type="password" placeholder="Password*" required></li>
+	<li><label for="Age">Age*</label>
+        <input type="number" id="#age" name="age" required></li>
+	<li><label for="DOB">DOB*</label>
+       <input type="date" id="#dfob" name="DOB"></li>
+	<li><label for="password">Password*</label>
+     <input type="password" id="#password" name="password" required></li>
     <li><input type="submit" value="submit button"></li>
 	<li><input type="url" placeholder="portfolio url" id="portfolio"></li>
 	</ol>
